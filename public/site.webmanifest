@@ -1,0 +1,8 @@
+{
+  "name": "Digitec Enterprise",
+  "short_name": "Digitec",
+  "icons": [],
+  "theme_color": "#08090D",
+  "background_color": "#08090D",
+  "display": "standalone"
+}
