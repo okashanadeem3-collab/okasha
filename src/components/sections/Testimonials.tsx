@@ -24,7 +24,7 @@ export function Testimonials() {
     <section className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
       <SectionHeading
         eyebrow="Client feedback"
-        title="What our customers say about Digitec"
+        title="What our customers say about us"
         align="center"
         className="mx-auto"
       />
@@ -63,7 +63,7 @@ export function Testimonials() {
             onClick={() =>
               setIndex((i) => (i - 1 + testimonials.length) % testimonials.length)
             }
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-mist-500 transition-colors hover:border-signal hover:text-signal-light"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-mist-100/10 text-mist-500 transition-colors hover:border-signal hover:text-signal-light"
           >
             <ChevronLeft size={18} />
           </button>
@@ -74,7 +74,7 @@ export function Testimonials() {
                 aria-label={`Go to testimonial ${i + 1}`}
                 onClick={() => setIndex(i)}
                 className={`h-1.5 rounded-full transition-all ${
-                  i === index ? "w-6 bg-signal" : "w-1.5 bg-white/15"
+                  i === index ? "w-6 bg-signal" : "w-1.5 bg-mist-100/15"
                 }`}
               />
             ))}
@@ -82,7 +82,7 @@ export function Testimonials() {
           <button
             aria-label="Next testimonial"
             onClick={() => setIndex((i) => (i + 1) % testimonials.length)}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-mist-500 transition-colors hover:border-signal hover:text-signal-light"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-mist-100/10 text-mist-500 transition-colors hover:border-signal hover:text-signal-light"
           >
             <ChevronRight size={18} />
           </button>

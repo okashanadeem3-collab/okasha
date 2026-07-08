@@ -39,7 +39,7 @@ export function Portfolio({ limit, showHeading = true }: { limit?: number; showH
             className={`rounded-full border px-4 py-2 text-xs font-medium uppercase tracking-wide transition-colors ${
               active === cat
                 ? "border-signal bg-signal text-white"
-                : "border-white/10 text-mist-500 hover:border-white/20 hover:text-mist-100"
+                : "border-mist-100/10 text-mist-500 hover:border-mist-100/20 hover:text-mist-100"
             }`}
           >
             {cat}
@@ -61,7 +61,7 @@ export function Portfolio({ limit, showHeading = true }: { limit?: number; showH
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.35 }}
               onClick={() => setSelected(proj)}
-              className="group relative aspect-[4/3] overflow-hidden rounded-2xl border border-white/8 bg-ink-800 text-left"
+              className="group relative aspect-[4/3] overflow-hidden rounded-2xl border border-mist-100/8 bg-ink-800 text-left"
             >
               <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-signal/25 via-ink-800 to-ember/10">
                 <span className="font-display text-2xl font-medium text-mist-100/40">

@@ -24,11 +24,11 @@ const siteUrl = "https://www.digitecenterprise.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Digitec Enterprise — UK Digital Marketing & Web Development Agency",
-    template: "%s | Digitec Enterprise",
+    default: "Digitech Enterprises Ltd — UK Digital Marketing & Web Development Agency",
+    template: "%s | Digitech Enterprises Ltd",
   },
   description:
-    "Digitec Enterprise is a UK digital marketing agency helping businesses grow online through web development, SEO, PPC, branding, and social media marketing.",
+    "Digitech Enterprises Ltd is a UK digital marketing agency helping businesses grow online through web development, SEO, PPC, branding, and social media marketing.",
   keywords: [
     "digital marketing agency UK",
     "web development UK",
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteUrl,
     siteName: company.name,
-    title: "Digitec Enterprise — UK Digital Marketing & Web Development Agency",
+    title: "Digitech Enterprises Ltd — UK Digital Marketing & Web Development Agency",
     description:
       "Results-driven SEO, PPC, branding, and web development for UK businesses.",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digitec Enterprise — UK Digital Marketing Agency",
+    title: "Digitech Enterprises Ltd — UK Digital Marketing Agency",
     description:
       "Results-driven SEO, PPC, branding, and web development for UK businesses.",
     images: ["/og-image.png"],

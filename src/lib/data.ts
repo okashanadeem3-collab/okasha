@@ -8,7 +8,7 @@ import type {
 } from "@/types";
 
 export const company = {
-  name: "Digitec Enterprise",
+  name: "Digitech Enterprises Ltd",
   tagline: "UK Digital Marketing Company",
   phone: "+44 20 8638 8301",
   phoneHref: "tel:442086388301",
@@ -261,21 +261,21 @@ export const portfolioCategories = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Digitec Enterprise completely changed how my online store performs. Their digital marketing strategies helped increase traffic and sales within just a few months.",
+      "Digitech Enterprises completely changed how my online store performs. Their digital marketing strategies helped increase traffic and sales within just a few months.",
     name: "Laura W.",
     role: "E-commerce Business",
     rating: 5,
   },
   {
     quote:
-      "We partnered with Digitec to improve our website and online presence, and the results have been great. Our search visibility and leads have gone up noticeably.",
+      "We partnered with Digitech Enterprises to improve our website and online presence, and the results have been great. Our search visibility and leads have gone up noticeably.",
     name: "Mark R.",
     role: "Real Estate Agency",
     rating: 5,
   },
   {
     quote:
-      "Working with Digitec was one of the best choices for my café. Their social media marketing and ad campaigns brought in new customers and a stronger local presence.",
+      "Working with Digitech Enterprises was one of the best choices for my café. Their social media marketing and ad campaigns brought in new customers and a stronger local presence.",
     name: "Sophie D.",
     role: "Café Owner",
     rating: 5,
@@ -310,7 +310,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Thanks to Digitec, my online store is now a powerhouse. The site's performance and functionality have boosted my sales dramatically.",
+      "Thanks to Digitech Enterprises, my online store is now a powerhouse. The site's performance and functionality have boosted my sales dramatically.",
     name: "Bessie Cooper",
     role: "E-commerce Development Client",
     rating: 5,

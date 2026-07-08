@@ -28,7 +28,7 @@ export function Button({
   const styles =
     variant === "primary"
       ? "bg-signal text-white shadow-glow hover:bg-signal-light"
-      : "glass text-mist-100 hover:border-white/20";
+      : "glass text-mist-100 hover:border-mist-100/20";
 
   const content = (
     <motion.span

@@ -12,7 +12,7 @@ export function ContactCTA() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative overflow-hidden rounded-3xl border border-white/8 bg-mesh-1 px-8 py-16 text-center sm:px-16"
+        className="relative overflow-hidden rounded-3xl border border-mist-100/8 bg-mesh-1 px-8 py-16 text-center sm:px-16"
       >
         <div className="absolute inset-0 bg-ink-900/40" />
         <div className="relative">

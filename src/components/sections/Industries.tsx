@@ -21,7 +21,7 @@ export function Industries() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: i * 0.05 }}
-            className="rounded-full border border-white/10 bg-ink-800/50 px-5 py-2.5 text-sm text-mist-300 transition-colors hover:border-signal/40 hover:text-mist-100"
+            className="rounded-full border border-mist-100/10 bg-ink-800/50 px-5 py-2.5 text-sm text-mist-300 transition-colors hover:border-signal/40 hover:text-mist-100"
           >
             {ind}
           </motion.span>

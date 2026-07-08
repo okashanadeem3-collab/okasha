@@ -76,8 +76,8 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="mt-8 max-w-xl text-base leading-relaxed text-mist-500 sm:text-lg"
         >
-          From SEO and PPC to branding and web development — Digitec
-          Enterprise designs strategies that deliver measurable growth, not
+          From SEO and PPC to branding and web development — Digitech
+          Enterprises designs strategies that deliver measurable growth, not
           just clicks.
         </motion.p>
 

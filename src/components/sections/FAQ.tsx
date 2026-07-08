@@ -18,7 +18,7 @@ export function FAQ() {
         className="mx-auto"
       />
 
-      <div className="mt-12 divide-y divide-white/8">
+      <div className="mt-12 divide-y divide-mist-100/8">
         {faq.map((item, i) => (
           <div key={item.question} className="py-2">
             <button
@@ -31,7 +31,7 @@ export function FAQ() {
               <motion.span
                 animate={{ rotate: open === i ? 45 : 0 }}
                 transition={{ duration: 0.25 }}
-                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/10 text-mist-300"
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-mist-100/10 text-mist-300"
               >
                 <Plus size={15} />
               </motion.span>
