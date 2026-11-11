@@ -30,7 +30,7 @@ export function LoadingScreen() {
                 DE
               </span>
             </div>
-            <motion.div className="h-px w-32 overflow-hidden bg-white/10">
+            <motion.div className="h-px w-32 overflow-hidden bg-mist-100/10">
               <motion.div
                 className="h-full bg-signal"
                 initial={{ x: "-100%" }}

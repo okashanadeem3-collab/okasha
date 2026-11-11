@@ -45,7 +45,7 @@ export function AboutContent() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="rounded-3xl border border-white/8 bg-ink-800/50 p-8"
+            className="rounded-3xl border border-mist-100/8 bg-ink-800/50 p-8"
           >
             <h3 className="font-display text-xl font-medium text-mist-100">
               Our mission
@@ -61,7 +61,7 @@ export function AboutContent() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="rounded-3xl border border-white/8 bg-ink-800/50 p-8"
+            className="rounded-3xl border border-mist-100/8 bg-ink-800/50 p-8"
           >
             <h3 className="font-display text-xl font-medium text-mist-100">
               Our vision
@@ -77,7 +77,7 @@ export function AboutContent() {
 
       <section className="mx-auto max-w-7xl px-6 py-16">
         <h3 className="text-center font-display text-2xl font-medium text-mist-100 sm:text-3xl">
-          Why choose Digitec Enterprise?
+          Why choose Digitech Enterprises?
         </h3>
         <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {pillars.map((p, i) => (
@@ -87,7 +87,7 @@ export function AboutContent() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="rounded-2xl border border-white/8 bg-ink-800/40 p-6"
+              className="rounded-2xl border border-mist-100/8 bg-ink-800/40 p-6"
             >
               <p.icon size={22} className="text-signal-light" />
               <h4 className="mt-4 font-display text-base font-medium text-mist-100">
@@ -113,7 +113,7 @@ export function AboutContent() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.08 }}
-              className="rounded-2xl border border-white/8 bg-ink-800/40 p-6 text-center"
+              className="rounded-2xl border border-mist-100/8 bg-ink-800/40 p-6 text-center"
             >
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-signal/40 to-ember/20 font-display text-lg font-medium text-mist-100">
                 {member.name.charAt(0)}

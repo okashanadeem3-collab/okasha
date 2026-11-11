@@ -16,7 +16,7 @@ export function Process() {
       />
 
       <div className="relative mt-16">
-        <div className="absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-white/8 lg:block" />
+        <div className="absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-mist-100/8 lg:block" />
         <div className="grid grid-cols-1 gap-x-10 gap-y-12 lg:grid-cols-2">
           {process.map((step, i) => (
             <motion.div
@@ -25,7 +25,7 @@ export function Process() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.5 }}
-              className={`relative rounded-2xl border border-white/8 bg-ink-800/50 p-7 ${
+              className={`relative rounded-2xl border border-mist-100/8 bg-ink-800/50 p-7 ${
                 i % 2 === 0 ? "lg:mr-6" : "lg:ml-6 lg:mt-16"
               }`}
             >

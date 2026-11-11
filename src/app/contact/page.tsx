@@ -7,7 +7,7 @@ import { company } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Digitec Enterprise — call, email, or send a message to start your digital marketing project.",
+    "Get in touch with Digitech Enterprises Ltd — call, email, or send a message to start your digital marketing project.",
 };
 
 export default function ContactPage() {
@@ -25,7 +25,7 @@ export default function ContactPage() {
         </div>
 
         <div className="flex flex-col gap-6 lg:col-span-2">
-          <div className="rounded-3xl border border-white/8 bg-ink-800/50 p-7">
+          <div className="rounded-3xl border border-mist-100/8 bg-ink-800/50 p-7">
             <h3 className="font-display text-base font-medium text-mist-100">
               Contact details
             </h3>
@@ -49,7 +49,7 @@ export default function ContactPage() {
             </ul>
           </div>
 
-          <div className="rounded-3xl border border-white/8 bg-ink-800/50 p-7">
+          <div className="rounded-3xl border border-mist-100/8 bg-ink-800/50 p-7">
             <h3 className="flex items-center gap-2 font-display text-base font-medium text-mist-100">
               <Clock size={16} className="text-signal-light" /> Business hours
             </h3>
@@ -63,7 +63,7 @@ export default function ContactPage() {
             </ul>
           </div>
 
-          <div className="rounded-3xl border border-white/8 bg-ink-800/50 p-7">
+          <div className="rounded-3xl border border-mist-100/8 bg-ink-800/50 p-7">
             <h3 className="font-display text-base font-medium text-mist-100">
               Follow us
             </h3>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-mist-500 hover:border-signal hover:text-signal-light"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-mist-100/10 text-mist-500 hover:border-signal hover:text-signal-light"
               >
                 <Facebook size={16} />
               </a>
@@ -82,7 +82,7 @@ export default function ContactPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X (Twitter)"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-mist-500 hover:border-signal hover:text-signal-light"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-mist-100/10 text-mist-500 hover:border-signal hover:text-signal-light"
               >
                 <Twitter size={16} />
               </a>
@@ -91,16 +91,16 @@ export default function ContactPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-mist-500 hover:border-signal hover:text-signal-light"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-mist-100/10 text-mist-500 hover:border-signal hover:text-signal-light"
               >
                 <Instagram size={16} />
               </a>
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-3xl border border-white/8">
+          <div className="overflow-hidden rounded-3xl border border-mist-100/8">
             <iframe
-              title="Digitec Enterprise office location"
+              title="Digitech Enterprises office location"
               src="https://www.google.com/maps?q=58+Peregrine+Road+Hainault+Ilford+Essex+IG6+3SZ&output=embed"
               width="100%"
               height="220"

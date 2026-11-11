@@ -4,7 +4,7 @@ export function TrustedBy() {
   const items = [...clientLogos, ...clientLogos];
 
   return (
-    <section className="border-y border-white/5 bg-ink-900/60 py-10">
+    <section className="border-y border-mist-100/5 bg-ink-900/60 py-10">
       <div className="mx-auto max-w-7xl px-6">
         <p className="mb-6 text-center text-xs uppercase tracking-[0.25em] text-mist-700">
           Trusted by growing brands across the UK

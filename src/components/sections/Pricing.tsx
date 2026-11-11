@@ -29,7 +29,7 @@ export function Pricing() {
               "relative flex flex-col rounded-3xl border p-8",
               tier.popular
                 ? "border-signal/50 bg-gradient-to-b from-signal/10 to-transparent shadow-glow"
-                : "border-white/8 bg-ink-800/50"
+                : "border-mist-100/8 bg-ink-800/50"
             )}
           >
             {tier.popular && (
@@ -72,7 +72,7 @@ export function Pricing() {
                 "mt-8 block rounded-full py-3 text-center text-sm font-medium transition-colors",
                 tier.popular
                   ? "bg-signal text-white hover:bg-signal-light"
-                  : "glass text-mist-100 hover:border-white/20"
+                  : "glass text-mist-100 hover:border-mist-100/20"
               )}
             >
               Get started

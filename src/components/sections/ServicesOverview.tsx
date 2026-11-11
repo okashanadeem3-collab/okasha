@@ -50,10 +50,10 @@ export function ServicesOverview({ limit }: { limit?: number }) {
               <Link
                 href={`/services#${service.slug}`}
                 id={service.slug}
-                className="group relative block h-full overflow-hidden rounded-2xl border border-white/8 bg-ink-800/60 p-7 transition-all duration-300 hover:-translate-y-1 hover:border-signal/40 hover:shadow-glow"
+                className="group relative block h-full overflow-hidden rounded-2xl border border-mist-100/8 bg-ink-800/60 p-7 transition-all duration-300 hover:-translate-y-1 hover:border-signal/40 hover:shadow-glow"
               >
                 <div className="absolute -right-8 -top-8 h-28 w-28 rounded-full bg-signal/0 blur-2xl transition-all duration-500 group-hover:bg-signal/20" />
-                <div className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-white/5 text-signal-light transition-colors group-hover:bg-signal group-hover:text-white">
+                <div className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-mist-100/5 text-signal-light transition-colors group-hover:bg-signal group-hover:text-white">
                   <Icon size={20} />
                 </div>
                 <h3 className="relative mt-6 font-display text-lg font-medium text-mist-100">

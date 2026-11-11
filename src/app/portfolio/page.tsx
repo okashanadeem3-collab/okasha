@@ -7,7 +7,7 @@ import { ContactCTA } from "@/components/sections/ContactCTA";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Explore Digitec Enterprise's portfolio of web design, branding, and digital marketing projects for UK businesses.",
+    "Explore Digitech Enterprises' portfolio of web design, branding, and digital marketing projects for UK businesses.",
 };
 
 export default function PortfolioPage() {

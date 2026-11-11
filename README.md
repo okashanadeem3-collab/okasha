@@ -1,12 +1,12 @@
-# Digitec Enterprise — Premium Agency Website
+# Digitech Enterprises Ltd — Premium Agency Website
 
 A production-ready marketing agency website built with **Next.js 15 (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-Content (services, portfolio, testimonials, company info) has been migrated from [digitecenterprise.com](https://digitecenterprise.com) and rewritten into a completely new dark, glassmorphic, premium UI.
+A light, luxury, glassmorphic UI — warm ivory backgrounds, antique-gold accents, and motion throughout.
 
 ## ✨ Features
 
-- Dark theme with animated mesh gradients & film-grain texture
+- Light luxury theme (ivory/white surfaces, charcoal text, antique-gold accents) with animated mesh gradients & film-grain texture
 - Glassmorphism cards & navigation
 - Framer Motion throughout: fade/slide/stagger reveals, word-reveal hero headline, mouse parallax, floating orbs, animated counters, scroll progress bar, page loading screen
 - Filterable, animated portfolio grid with project detail modal
@@ -96,9 +96,9 @@ Also replace `public/og-image.png` with a real 1200×630 social share image befo
    ```bash
    git init
    git add .
-   git commit -m "Initial commit — Digitec Enterprise website"
+   git commit -m "Initial commit — Digitech Enterprises website"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/digitec-enterprise.git
+   git remote add origin https://github.com/<your-username>/digitech-enterprises.git
    git push -u origin main
    ```
 2. Go to [vercel.com/new](https://vercel.com/new) and import the repository.
@@ -121,4 +121,4 @@ Every push to `main` will auto-deploy. Preview deployments are created automatic
 
 ## 📄 License
 
-This project and its content are proprietary to Digitec Enterprise Ltd.
+This project and its content are proprietary to Digitech Enterprises Ltd.

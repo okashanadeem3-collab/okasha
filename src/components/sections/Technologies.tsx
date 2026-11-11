@@ -14,7 +14,7 @@ export function Technologies() {
         {technologies.map((tech) => (
           <div
             key={tech}
-            className="rounded-xl border border-white/8 bg-ink-800/40 px-4 py-5 text-center text-sm font-medium text-mist-300 transition-colors hover:border-signal/40 hover:text-mist-100"
+            className="rounded-xl border border-mist-100/8 bg-ink-800/40 px-4 py-5 text-center text-sm font-medium text-mist-300 transition-colors hover:border-signal/40 hover:text-mist-100"
           >
             {tech}
           </div>

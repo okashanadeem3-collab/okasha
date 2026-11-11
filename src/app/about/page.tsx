@@ -8,7 +8,7 @@ import { AboutContent } from "./about-content";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Digitec Enterprise is a UK digital marketing agency — innovators, problem solvers, and brand builders helping businesses grow online.",
+    "Digitech Enterprises Ltd is a UK digital marketing agency — innovators, problem solvers, and brand builders helping businesses grow online.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="About us"
           title="Empowering brands in the digital world"
-          description="At Digitec Enterprise, we're more than a design and development agency — we're innovators, problem solvers, and brand builders."
+          description="At Digitech Enterprises, we're more than a design and development agency — we're innovators, problem solvers, and brand builders."
         />
       </section>
 

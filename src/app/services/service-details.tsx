@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/Button";
 
 export function ServiceDetails() {
   return (
-    <section className="mx-auto max-w-7xl divide-y divide-white/5 px-6 py-16">
+    <section className="mx-auto max-w-7xl divide-y divide-mist-100/5 px-6 py-16">
       {services.map((service, i) => {
         const Icon = (Icons as any)[service.icon] ?? Icons.Sparkles;
         const reverse = i % 2 === 1;
@@ -52,7 +52,7 @@ export function ServiceDetails() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.55 }}
-              className={`relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/8 bg-gradient-to-br from-signal/15 via-ink-800 to-ember/10 ${
+              className={`relative aspect-[4/3] overflow-hidden rounded-3xl border border-mist-100/8 bg-gradient-to-br from-signal/15 via-ink-800 to-ember/10 ${
                 reverse ? "lg:order-1" : ""
               }`}
             >

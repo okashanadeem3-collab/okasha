@@ -51,7 +51,7 @@ export function Navbar() {
               DE
             </span>
             <span className="font-display text-base font-medium tracking-tight text-mist-100">
-              Digitec Enterprise
+              Digitech Enterprises
             </span>
           </Link>
 
@@ -69,7 +69,7 @@ export function Navbar() {
                 {pathname === link.href && (
                   <motion.span
                     layoutId="nav-pill"
-                    className="absolute inset-0 -z-10 rounded-full bg-white/8"
+                    className="absolute inset-0 -z-10 rounded-full bg-mist-100/8"
                   />
                 )}
               </Link>
@@ -107,8 +107,8 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    "rounded-xl px-4 py-3 text-sm font-medium text-mist-300 transition-colors hover:bg-white/5 hover:text-mist-100",
-                    pathname === link.href && "bg-white/5 text-mist-100"
+                    "rounded-xl px-4 py-3 text-sm font-medium text-mist-300 transition-colors hover:bg-mist-100/5 hover:text-mist-100",
+                    pathname === link.href && "bg-mist-100/5 text-mist-100"
                   )}
                 >
                   {link.label}

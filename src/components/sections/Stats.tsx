@@ -3,7 +3,7 @@ import { Counter } from "@/components/ui/Counter";
 
 export function Stats() {
   return (
-    <section className="border-y border-white/5 bg-gradient-to-b from-white/[0.02] to-transparent">
+    <section className="border-y border-mist-100/5 bg-gradient-to-b from-mist-100/[0.02] to-transparent">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-6 py-16 sm:grid-cols-4">
         {stats.map((s) => (
           <div key={s.label} className="text-center sm:text-left">

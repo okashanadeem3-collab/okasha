@@ -103,7 +103,7 @@ export function ContactForm() {
               type={field.type ?? "text"}
               value={form[field.key]}
               onChange={(e) => update(field.key, e.target.value)}
-              className="w-full rounded-xl border border-white/10 bg-ink-800 px-4 py-3 text-sm text-mist-100 placeholder:text-mist-700 focus:border-signal focus:outline-none"
+              className="w-full rounded-xl border border-mist-100/10 bg-ink-800 px-4 py-3 text-sm text-mist-100 placeholder:text-mist-700 focus:border-signal focus:outline-none"
             />
           </div>
         ))}
@@ -115,7 +115,7 @@ export function ContactForm() {
             rows={5}
             value={form.message}
             onChange={(e) => update("message", e.target.value)}
-            className="w-full resize-none rounded-xl border border-white/10 bg-ink-800 px-4 py-3 text-sm text-mist-100 placeholder:text-mist-700 focus:border-signal focus:outline-none"
+            className="w-full resize-none rounded-xl border border-mist-100/10 bg-ink-800 px-4 py-3 text-sm text-mist-100 placeholder:text-mist-700 focus:border-signal focus:outline-none"
           />
         </div>
       </div>
@@ -126,7 +126,7 @@ export function ContactForm() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="mt-4 text-sm text-ember"
+            className="mt-4 text-sm text-red-600"
           >
             {error}
           </motion.p>
